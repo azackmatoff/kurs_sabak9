@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kurs_sabak9">
+
+  <uses-permission android:name="android.permission.INTERNET" /> 
+
    <application
         android:label="kurs_sabak9"
         android:icon="@mipmap/ic_launcher">

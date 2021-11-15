@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "657895587990",
+    "project_id": "kurs2-chat",
+    "storage_bucket": "kurs2-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657895587990:android:d1e407851bd37e6b8342b7",
+        "android_client_info": {
+          "package_name": "com.example.kurs_sabak9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657895587990-fqlpj1a93q4rdsi2imgqpknm8lphs5hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kurs_sabak9",
+            "certificate_hash": "32698765cc46cb0ed1fba850e8c94afb11ab77a5"
+          }
+        },
+        {
+          "client_id": "657895587990-r01ic2cukdm6jjeu26a5dh8kp6f97mqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBScL7jXKB1i4qbVrzvMBBkNyG28baCIXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657895587990-r01ic2cukdm6jjeu26a5dh8kp6f97mqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

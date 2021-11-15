@@ -1,10 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:kurs_sabak9/screens/chat_screen.dart';
 import 'package:kurs_sabak9/screens/home_screen.dart';
 import 'package:kurs_sabak9/screens/login_screen.dart';
 import 'package:kurs_sabak9/screens/register_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(MyApp());
 }
 
