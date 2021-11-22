@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:kurs_sabak9/screens/chat_screen.dart';
+import 'package:kurs_sabak9/sabaktan/chat_screen_test.dart';
 import 'package:kurs_sabak9/screens/home_screen.dart';
 import 'package:kurs_sabak9/screens/login_screen.dart';
 import 'package:kurs_sabak9/screens/register_screen.dart';
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         // 'login_screen': (context) => LoginScreen(),
         LoginScreen.id: (context) => LoginScreen(),
         RegisterScreen.id: (context) => RegisterScreen(),
-        ChatScreen.id: (context) => ChatScreen(),
+        ChatScreenTest.id: (context) => ChatScreenTest(),
       },
       // home: HomeScreen(), // route tor koldonulsa bul chakirilbayt
     );

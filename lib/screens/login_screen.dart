@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:kurs_sabak9/constants.dart';
+import 'package:kurs_sabak9/sabaktan/chat_screen_test.dart';
 import 'package:kurs_sabak9/screens/chat_screen.dart';
 
 import 'package:kurs_sabak9/widgets/rounded_button.dart';
@@ -92,12 +93,15 @@ class _LoginScreenState extends State<LoginScreen> {
                         await userCollection.doc(userCredential.user.uid).get();
 
                     if (documentSnapshot.exists) {
+                      //Misaldar
+                      // final user = documentSnapshot.data();
+
+                      // user['name'];
+                      // user['userID'];
+
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
-                            builder: (context) => ChatScreen(
-                                  userCredential: userCredential,
-                                )),
+                        MaterialPageRoute(builder: (context) => ChatScreen()),
                       );
                     }
                   } else {
